@@ -14,9 +14,73 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <section class="home"></section>
-    <section class="play_ground"></section>
-    <section class="score"></section>
+  <body class="">
+    <main
+      class="min-h-screen bg-[#010313] bg-[url(photo/background_photo.jpg)] bg-no-repeat bg-center"
+    >
+      <!-- Home Screen Start -->
+      <section
+        class="home hidden min-h-screen text-white flex justify-center items-center"
+      >
+        <div class="flex flex-col items-center gap-10">
+          <h1 class="text-5xl">Alpha clash pro</h1>
+          <p>Unleash your keyboard kun g Fu : Press Enter to play</p>
+          <button class="btn bg-white text-black">Play Now</button>
+        </div>
+      </section>
+      <!-- Home Screen End -->
+
+      <!-- Play Ground Start -->
+      <section class="play_ground">
+        <div>
+          <!-- Screen Start -->
+          <!-- Screen End -->
+          <!-- Keyboard Start -->
+          <div>
+            <div class="my-1 flex w-full justify-center gap-1">
+              <kbd class="kbd">q</kbd>
+              <kbd class="kbd">w</kbd>
+              <kbd class="kbd">e</kbd>
+              <kbd class="kbd">r</kbd>
+              <kbd class="kbd">t</kbd>
+              <kbd class="kbd">y</kbd>
+              <kbd class="kbd">u</kbd>
+              <kbd class="kbd">i</kbd>
+              <kbd class="kbd">o</kbd>
+              <kbd class="kbd">p</kbd>
+            </div>
+            <div class="my-1 flex w-full justify-center gap-1">
+              <kbd class="kbd">a</kbd>
+              <kbd class="kbd">s</kbd>
+              <kbd class="kbd">d</kbd>
+              <kbd class="kbd">f</kbd>
+              <kbd class="kbd">g</kbd>
+              <kbd class="kbd">h</kbd>
+              <kbd class="kbd">j</kbd>
+              <kbd class="kbd">k</kbd>
+              <kbd class="kbd">l</kbd>
+            </div>
+            <div class="my-1 flex w-full justify-center gap-1">
+              <kbd class="kbd">z</kbd>
+              <kbd class="kbd">x</kbd>
+              <kbd class="kbd">c</kbd>
+              <kbd class="kbd">v</kbd>
+              <kbd class="kbd">b</kbd>
+              <kbd class="kbd">n</kbd>
+              <kbd class="kbd">m</kbd>
+              <kbd class="kbd">/</kbd>
+            </div>
+          </div>
+          <!-- Keyboard End -->
+          <!-- Life Score -->
+        </div>
+      </section>
+      <!-- Play Ground End -->
+
+      <!-- Score Start -->
+      <section class="score"></section>
+      <!-- Score Ennd -->
+    </main>
   </body>
 </html>
+<!-- 27 number module er 2 number ta ses and 3 number ta start -->
