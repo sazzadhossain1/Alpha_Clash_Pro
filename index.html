@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alpha Clash Pro</title>
     <link rel="stylesheet" href="style/style.css" />
+
     <!-- Daisy UI and Tailwind -->
 
     <link
@@ -13,6 +14,7 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js" defer></script>
   </head>
   <body class="">
     <main
@@ -20,18 +22,21 @@
     >
       <!-- Home Screen Start -->
       <section
-        class="home min-h-screen text-white flex justify-center items-center"
+        id="home_screen"
+        class="min-h-screen text-white flex justify-center items-center"
       >
         <div class="flex flex-col items-center gap-10">
           <h1 class="text-5xl">Alpha clash pro</h1>
           <p>Unleash your keyboard kun g Fu : Press Enter to play</p>
-          <button class="btn bg-white text-black">Play Now</button>
+          <button onclick="play()" class="btn bg-white text-black">
+            Play Now
+          </button>
         </div>
       </section>
       <!-- Home Screen End -->
 
       <!-- Play Ground Start -->
-      <section class="play_ground hidden">
+      <section id="play_ground" class="hidden">
         <div class="flex flex-col items-center gap-40">
           <!-- Screen Start -->
           <div
@@ -145,4 +150,3 @@
     </main>
   </body>
 </html>
-<!-- 27 number module er 3 number ta ses and 4 number ta start -->
