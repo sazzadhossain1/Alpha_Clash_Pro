@@ -20,7 +20,7 @@
     >
       <!-- Home Screen Start -->
       <section
-        class="home hidden min-h-screen text-white flex justify-center items-center"
+        class="home min-h-screen text-white flex justify-center items-center"
       >
         <div class="flex flex-col items-center gap-10">
           <h1 class="text-5xl">Alpha clash pro</h1>
@@ -31,9 +31,21 @@
       <!-- Home Screen End -->
 
       <!-- Play Ground Start -->
-      <section class="play_ground">
-        <div>
+      <section class="play_ground hidden">
+        <div class="flex flex-col items-center gap-40">
           <!-- Screen Start -->
+          <div
+            class="artboard artboard-horizontal phone-6 border-[15px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]"
+          >
+            <div class="flex justify-center">
+              <p class="bg-[#2F2941] px-4 py-2 rounded-b-xl text-white mt-5">
+                Don't watch keyboard wile playing...
+              </p>
+            </div>
+            <div class="flex justify-center items-center h-full">
+              <p class="text-black text-center text-9xl font-bold">Y</p>
+            </div>
+          </div>
           <!-- Screen End -->
           <!-- Keyboard Start -->
           <div>
@@ -74,13 +86,63 @@
           <!-- Keyboard End -->
           <!-- Life Score -->
         </div>
+
+        <div class="flex justify-center items-center gap-x-40 mt-5">
+          <button class="btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+            Like
+          </button>
+          <button class="btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+            Score
+          </button>
+        </div>
       </section>
       <!-- Play Ground End -->
 
       <!-- Score Start -->
-      <section class="score"></section>
+      <section
+        class="score flex justify-center items-center min-h-screen hidden"
+      >
+        <div
+          class="text-white text-center space-y-6 bg-[#ffffff33] p-2 rounded"
+        >
+          <h1 class="text-4xl">
+            <span class="font-extrabold">Score:</span>
+            <span>14</span>
+          </h1>
+          <button class="btn">Play Again</button>
+          <p>Practice will make you a pro</p>
+        </div>
+      </section>
       <!-- Score Ennd -->
     </main>
   </body>
 </html>
-<!-- 27 number module er 2 number ta ses and 3 number ta start -->
+<!-- 27 number module er 3 number ta ses and 4 number ta start -->
