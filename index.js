@@ -37,4 +37,4 @@ const play = () => {
   displayFunction("play_ground");
   continueGame();
 };
-//  28 number module er 2 number ta ses and 3 number ta start -->
+//  28 number module er 3 number ta ses and 4 number ta start -->
